@@ -11,5 +11,17 @@
 
     <artifactId>zRPC-framework-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
+            <version>${kryo.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>top.zy-finn</groupId>
+            <artifactId>zRPPC-framework-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
