@@ -17,10 +17,12 @@
         <encoding>UTF-8</encoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-
+        <netty.version>4.1.42.Final</netty.version>
         <kryo.version>4.0.2</kryo.version>
         <!--logging-->
         <slf4j.version>1.7.25</slf4j.version>
+
+        <curator-version>4.2.0</curator-version>
     </properties>
 
     <dependencies>
