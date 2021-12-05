@@ -1,5 +1,6 @@
 package top.zy_finn.zRPC.registry;
 
+import top.zy_finn.zRPC.extension.SPI;
 import top.zy_finn.zRPC.remotinig.dto.RpcRequest;
 
 import java.net.InetSocketAddress;
@@ -10,6 +11,7 @@ import java.net.InetSocketAddress;
  * @author Finn
  * @create 2021/11/19 20:55
  */
+@SPI
 public interface ServiceDiscovery {
 
     /**
